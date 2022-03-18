@@ -26,7 +26,7 @@ import javax.sql.DataSource;
 @Configuration
 @EnableTransactionManagement
 @ComponentScan({
-        "conta.dsv",
+        "conta.hml",
         "conta.tela",
         "conta.sistema",
         "conta.servicos.repositorio",
