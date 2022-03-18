@@ -16,6 +16,11 @@ module conta.desktop {
     // abre telas e builds
     opens conta.tela;
     opens conta.dsv;
-    //opens conta.hml;
+    opens conta.hml;
     //opens conta.prd;
+
+    // Uso conta servico
+    requires servico;
+    requires spring.jdbc;
+    requires hsqldb;
 }
