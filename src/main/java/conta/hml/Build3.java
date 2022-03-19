@@ -16,7 +16,7 @@ import javax.sql.DataSource;
  * @ComponentScan: Configura as diretivas de varredura.
  *
  * conta.sistema: Pacote do Hexágono
- * conta.adaptador: Pacote dos Adaptadores Mock
+ * conta.servicos.repositorio: Pacote dos Adaptadores Secundários, ou seja, são as implementações dos repositórios.
  *
  * Build 3: Adaptador Interface Gráfica → Sistema ← Adaptadores Real em Homologação
  *          O Objetivo é homologar o sistema.
