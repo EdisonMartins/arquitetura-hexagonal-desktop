@@ -17,7 +17,7 @@ module conta.desktop {
     opens conta.tela;
     opens conta.dsv;
     opens conta.hml;
-    //opens conta.prd;
+    opens conta.prd;
 
     // Uso conta servico
     requires servico;
